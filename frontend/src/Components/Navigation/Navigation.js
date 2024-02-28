@@ -38,7 +38,17 @@ function Navigation(){
 }
 
 const NavStyled = styled.nav`
-
+    padding: 2rem 1.5rem;
+    width: 374px;
+    height: 100%;
+    background: rgba(252, 246, 249, 0.78);
+    border: 3px solid #FFFFFF;
+    backdrop-filter: blur(4.5px);
+    border-radius: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
 `;
 
 export default Navigation
